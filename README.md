@@ -3,7 +3,7 @@
 It ain't easy bein' Wheezy so now I'm a Xenial Xerus.
 
 
-Useful links: 
+Stuff: 
 
 https://www.digitalocean.com/community/tutorials 
 
