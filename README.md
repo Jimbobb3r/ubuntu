@@ -23,21 +23,21 @@ https://help.ubuntu.com/community/CronHowto <br>
 Permission | CLI | Description  
 --- | --- | --- |
 rwx rwx rwx   | chmod 777 filename | All can
-               | chmod -R 777 dir | r, w & exe
+- | chmod -R 777 dir | r, w & exe
 rwx rwx r-x	| chmod 775 filename | Owner & Grp r,w, exe 
-               | chmod -R 775 dir | All can r, w
+- | chmod -R 775 dir | All can r, w
 rwx rwx r–	| chmod 774 filename | Owner & Grp r,w,exe 
-               | chmod -R 774 dir | All can read 
+ - | chmod -R 774 dir | All can read 
 rwx r-x r-x	| chmod 755 filename | Owner r,w,exe
-               | chmod -R 755 dir | All can r,exe
+ - | chmod -R 755 dir | All can r,exe
 rwx — — | chmod 700 filename | Owner r,w,exe
-               | chmod -R 700 dir | No-one else
+ - | chmod -R 700 dir | No-one else
 rw- rw- rw-	| chmod 666 filename | All r,w
-               | chmod -R 666 dir | 
+ - | chmod -R 666 dir | 
 rw- rw- r– | chmod 664 filename | Owner & Grp r,w
-               | chmod -R 664 dir | All can read
+ - | chmod -R 664 dir | All can read
 rw- r– r– | chmod 644 filename | Owner can r,w
-               | chmod -R 644 dir | All can read
+ - | chmod -R 644 dir | All can read
 
 <br>
 <br>
