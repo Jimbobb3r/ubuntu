@@ -19,17 +19,18 @@ https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mys
 https://help.ubuntu.com/community/CronHowto <br>
 <br>
 <br>
+**CHMOD** 
 
-Permission | CLI | Description  
+Permission <br> (User/Grp/Other) | CLI | Description  
 --- | --- | --- |
-rwx rwx rwx   | chmod 777 filename <br> chmod -R 777 dir | All can r, w & exe
-rwx rwx r-x	| chmod 775 filename <br> chmod -R 775 dir | Owner & Grp r,w, exe. All can r, w
-rwx rwx r–	| chmod 774 filename <br> chmod -R 774 dir | Owner & Grp r,w,exe. All can read 
-rwx r-x r-x	| chmod 755 filename <br> chmod -R 755 dir | Owner r,w,exe. All can r,exe
-rwx — — | chmod 700 filename <br> chmod -R 700 dir | Owner r,w,exe. No-one else
+rwx rwx rwx   | chmod 777 filename <br> chmod -R 777 dir | All can r/w/exe
+rwx rwx r-x	| chmod 775 filename <br> chmod -R 775 dir | User & Grp r/w/exe. All can r/w
+rwx rwx r–	| chmod 774 filename <br> chmod -R 774 dir | User & Grp r/w/exe. All can read 
+rwx r-x r-x	| chmod 755 filename <br> chmod -R 755 dir | User r/w/exe. All can r/exe
+rwx — — | chmod 700 filename <br> chmod -R 700 dir | User r/w/exe
 rw- rw- rw-	| chmod 666 filename <br> chmod -R 666 dir | All r,w 
-rw- rw- r– | chmod 664 filename <br> chmod -R 664 dir | Owner & Grp r,w. All can read
-rw- r– r– | chmod 644 filename <br> chmod -R 644 dir | Owner can r,w. | All can read
+rw- rw- r– | chmod 664 filename <br> chmod -R 664 dir | User & Grp r/w. All can read
+rw- r– r– | chmod 644 filename <br> chmod -R 644 dir | User r/w. All can read
 
 <br>
 <br>
