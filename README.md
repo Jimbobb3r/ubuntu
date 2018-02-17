@@ -32,7 +32,7 @@ rw- rw- rw-	| chmod 666 filename <br> chmod -R 666 dir | All r,w
 rw- rw- r– | chmod 664 filename <br> chmod -R 664 dir | User & Grp r/w. All can read
 rw- r– r– | chmod 644 filename <br> chmod -R 644 dir | User r/w. All can read
 
-<br>
+
 <br>
 **Basic CLI Commands:**<br>
 <br>
