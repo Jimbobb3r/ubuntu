@@ -22,7 +22,7 @@ https://help.ubuntu.com/community/CronHowto <br>
 
 Permission | CLI | Description  
 --- | --- | --- |
-rwx rwx rwx   | chmod 777 filename | All can
+rwx rwx rwx   | chmod 777 filename <br> abc | All can
 .. | chmod -R 777 dir | r, w & exe
 rwx rwx r-x	| chmod 775 filename | Owner & Grp r,w, exe 
 .. | chmod -R 775 dir | All can r, w
