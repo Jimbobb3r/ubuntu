@@ -19,7 +19,8 @@ https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mys
 https://help.ubuntu.com/community/CronHowto <br>
 <br>
 <br>
-#### Basic CLI Commands:<br>
+### Basic CLI Commands:<br>
+<br>
 <br>
 **clear** clear terminal window <br>
 **ls list** files in current folder <br>
@@ -64,7 +65,7 @@ https://help.ubuntu.com/community/CronHowto <br>
 **env | grep PATH** stdout of env piped to grep which searches for “PATH”’ <br>
 <br>
 <br>
-#### CHMOD 
+#### CHMOD <br>
 
 Permission <br> (User/Grp/Other) | CLI | Description  
 --- | --- | --- |
