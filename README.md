@@ -18,11 +18,8 @@ https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mys
 ## CRON <br>
 https://help.ubuntu.com/community/CronHowto <br>
 <br>
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
 <br>
+
 Permission | CLI | Description  
 --- | --- | --- |
 rwx rwx rwx   | chmod 777 filename | All can
