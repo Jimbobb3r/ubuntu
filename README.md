@@ -38,7 +38,7 @@ https://help.ubuntu.com/community/CronHowto
 **mkdir** new folder in working directory <br>
 **touch** new file in working directory <br>
 **cp abc.txt xyz.txt** <br>
-**cp * abc/** copy all files to folder abc <br>
+**cp *** **abc/** copy all files to folder abc <br>
 **cp m*.txt abc/** copy all files beginning with m to folder abc <br>
 **mv abc.txt def.txt xyz/** move abc.txt & def.txt to folder xyz  <br>
 **mv abc.txt def.txt** rename abc.txt to def.txt <br>
