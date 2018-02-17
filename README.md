@@ -19,7 +19,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mys
 https://help.ubuntu.com/community/CronHowto <br>
 <br>
 <br>
-**CHMOD** 
+### CHMOD 
 
 Permission <br> (User/Grp/Other) | CLI | Description  
 --- | --- | --- |
@@ -34,7 +34,7 @@ rw- r– r– | chmod 644 filename <br> chmod -R 644 dir | User r/w. All can rea
 
 
 <br>
-## Basic CLI Commands:<br>
+### Basic CLI Commands:<br>
 <br>
 **clear** clear terminal window <br>
 **ls list** files in current folder <br>
