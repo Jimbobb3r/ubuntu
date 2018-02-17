@@ -34,7 +34,7 @@ rw- r– r– | chmod 644 filename <br> chmod -R 644 dir | User r/w. All can rea
 
 
 <br>
-**Basic CLI Commands:**<br>
+## Basic CLI Commands:<br>
 <br>
 **clear** clear terminal window <br>
 **ls list** files in current folder <br>
