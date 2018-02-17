@@ -1,31 +1,25 @@
-![alt text](https://github.com/Jimbobb3r/ubuntu/blob/master/Logo-ubuntu.svg.png?raw=true "Ubuntu Logo")
-
-It ain't easy bein' Wheezy so now I'm a Xenial Xerus.
-
-
-Stuff: 
-
-https://www.digitalocean.com/community/tutorials 
-
-https://askubuntu.com/ 
-
-https://help.ubuntu.com/ 
-
-https://www.cyberciti.biz/ 
-
-Apache:
-
-http://dev.antoinesolutions.com/ubuntu-14.04-trusty/install-and-configure-apache-http-server-on-ubuntu-14.04
-
-https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04 
-
-LAMP
-
-https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04 
-
-CRON 
-https://help.ubuntu.com/community/CronHowto 
-
+![alt text](https://github.com/Jimbobb3r/ubuntu/blob/master/Logo-ubuntu.svg.png?raw=true "Ubuntu Logo") <br>
+<br>
+It ain't easy bein' Wheezy so now I'm a Xenial Xerus. <br>
+<br>
+##Stuff: <br>
+https://www.digitalocean.com/community/tutorials <br>
+https://askubuntu.com/ <br>
+https://help.ubuntu.com/ <br>
+https://www.cyberciti.biz/ <br>
+<br>
+##Apache: <br>
+http://dev.antoinesolutions.com/ubuntu-14.04-trusty/install-and-configure-apache-http-server-on-ubuntu-14.04 <br>
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04 <br>
+<br>
+##LAMP
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04 <br>
+<br>
+##CRON <br>
+https://help.ubuntu.com/community/CronHowto <br>
+<br>
+**Basic CLI Commands<br>
+<br>
 **clear** clear terminal window <br>
 **ls list** files in current folder <br>
 **ls -a** list all files including hidden <br>
