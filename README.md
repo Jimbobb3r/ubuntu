@@ -1,6 +1,6 @@
 ![alt text](https://github.com/Jimbobb3r/ubuntu/blob/master/Logo-ubuntu.svg.png?raw=true "Ubuntu Logo") <br>
 <br>
-It ain't easy bein' Wheezy so now I'm a Xenial Xerus. <br>
+It ain't easy bein' Wheezy. <br>
 <br>
 ## Stuff: <br>
 https://www.digitalocean.com/community/tutorials <br>
