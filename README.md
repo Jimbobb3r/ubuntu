@@ -18,7 +18,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mys
 ## CRON <br>
 https://help.ubuntu.com/community/CronHowto <br>
 <br>
-**Basic CLI Commands**<br>
+**Basic CLI Commands:**<br>
 <br>
 **clear** clear terminal window <br>
 **ls list** files in current folder <br>
