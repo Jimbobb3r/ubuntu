@@ -19,22 +19,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mys
 https://help.ubuntu.com/community/CronHowto <br>
 <br>
 <br>
-### CHMOD 
-
-Permission <br> (User/Grp/Other) | CLI | Description  
---- | --- | --- |
-rwx rwx rwx   | chmod 777 filename <br> chmod -R 777 dir | All can r/w/exe
-rwx rwx r-x	| chmod 775 filename <br> chmod -R 775 dir | User & Grp r/w/exe. All can r/w
-rwx rwx r–	| chmod 774 filename <br> chmod -R 774 dir | User & Grp r/w/exe. All can read 
-rwx r-x r-x	| chmod 755 filename <br> chmod -R 755 dir | User r/w/exe. All can r/exe
-rwx — — | chmod 700 filename <br> chmod -R 700 dir | User r/w/exe
-rw- rw- rw-	| chmod 666 filename <br> chmod -R 666 dir | All r,w 
-rw- rw- r– | chmod 664 filename <br> chmod -R 664 dir | User & Grp r/w. All can read
-rw- r– r– | chmod 644 filename <br> chmod -R 644 dir | User r/w. All can read
-
-
-<br>
-### Basic CLI Commands:<br>
+#### Basic CLI Commands:<br>
 <br>
 **clear** clear terminal window <br>
 **ls list** files in current folder <br>
@@ -77,3 +62,17 @@ rw- r– r– | chmod 644 filename <br> chmod -R 644 dir | User r/w. All can rea
 **echo $PATH** comma separated list of directories containing scripts <br> 
 **env** returns current user’s env variables <br> 
 **env | grep PATH** stdout of env piped to grep which searches for “PATH”’ <br>
+<br>
+<br>
+#### CHMOD 
+
+Permission <br> (User/Grp/Other) | CLI | Description  
+--- | --- | --- |
+rwx rwx rwx   | chmod 777 filename <br> chmod -R 777 dir | All can r/w/exe
+rwx rwx r-x	| chmod 775 filename <br> chmod -R 775 dir | User & Grp r/w/exe. All can r/w
+rwx rwx r–	| chmod 774 filename <br> chmod -R 774 dir | User & Grp r/w/exe. All can read 
+rwx r-x r-x	| chmod 755 filename <br> chmod -R 755 dir | User r/w/exe. All can r/exe
+rwx — — | chmod 700 filename <br> chmod -R 700 dir | User r/w/exe
+rw- rw- rw-	| chmod 666 filename <br> chmod -R 666 dir | All r,w 
+rw- rw- r– | chmod 664 filename <br> chmod -R 664 dir | User & Grp r/w. All can read
+rw- r– r– | chmod 644 filename <br> chmod -R 644 dir | User r/w. All can read
