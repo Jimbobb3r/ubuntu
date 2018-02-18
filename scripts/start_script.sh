@@ -5,19 +5,33 @@ sudo apt-get -y update && sudo apt-get -y upgrade
 sudo apt-get install curl
 #
 ### Install Stuff
-sudo add-apt-repository ppa:gnome-terminator 
-sudo add-apt-repository ppa:webupd8team/atom 
-sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make 
-sudo add-apt-repository ppa:webupd8team/brackets
+#
+#Chrome 
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list' 
+sudo apt-get -y update 
+sudo apt-get install google-chrome-stable 
+#Atom Editor
+curl -L https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
+sudo apt-get -y update
+sudo apt-get install atom
+#Brackets 
+sudo add-apt-repository ppa:webupd8team/brackets
+sudo apt-get -y update
+sudo apt-get install brackets
 #VS Code
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+sudo apt-get -y update 
+sudo apt-get install code
+#
+sudo add-apt-repository ppa:gnome-terminator 
+sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
 #
 sudo apt-get -y update 
-sudo apt-get -y install ufw fail2ban vlc nautilus gedit chromium-browser gdebi gimp pinta unity-tweak-tool terminator atom google-chrome-stable caffeine ubuntu-make filezilla code brackets 
+sudo apt-get -y install ufw fail2ban vlc nautilus gedit chromium-browser gdebi gimp pinta unity-tweak-tool terminator caffeine ubuntu-make filezilla 
 #
 #
 ### Save defaults
